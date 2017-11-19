@@ -56,7 +56,7 @@ class CorpusGenerator(object):
 
     def create_word_based_language_model(self):
         """
-        Creating a language model based on probabilities
+        Creates a word-based language model based on probabilities of the trigram model.
         :return: A trigram (word based) language model as a dictionary
         """
         model = self.count_word_based_trigrams()
@@ -65,7 +65,7 @@ class CorpusGenerator(object):
 
     def create_char_based_language_model(self):
         """
-        Creating a language model based on probabilities
+        Creates a character-based language model based on probabilities of the trigram model.
         :return: A trigram (character based) language model as a dictionary
         """
         model = self.count_char_based_trigrams()
