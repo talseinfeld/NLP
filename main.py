@@ -14,9 +14,9 @@ def main(path, word_base, total_words):
 
 if __name__ == '__main__':
     """
-    all the text corpus in gutenberg and three more additional texts are 
-    available. If you want to use any additional text, feel free to just add it to the gutenberg
-    directory, path (in Windows): 
+    Make sure you download the gutenberg package.
+    If you want to use any additional text, feel free to just add it to the gutenberg
+    directory.
     """
     try:
         path_to_txt_file = sys.argv[1]
